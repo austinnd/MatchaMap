@@ -342,4 +342,102 @@
   right: 60px !important;
 }
 
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .map-container {
+    border-width: 0;
+    border-radius: 0;
+    outline: none;
+    padding: 0;
+  }
+  
+  .map-container .leaflet-control-zoom {
+    top: 10px !important;
+    left: 10px !important;
+  }
+  
+  .map-container .leaflet-control-zoom a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+  }
+  
+  .map-container .my-location-btn {
+    bottom: 160px !important;
+    right: 20px !important;
+    width: 56px !important;
+    height: 56px !important;
+  }
+  
+  .map-brand {
+    display: none;
+  }
+  
+  .map-popup {
+    min-width: 180px;
+    max-width: 250px;
+  }
+  
+  .map-popup h3 {
+    font-size: 16px;
+  }
+  
+  .popup-rating {
+    font-size: 13px;
+  }
+  
+  .popup-address {
+    font-size: 11px;
+  }
+  
+  .popup-price {
+    font-size: 11px;
+  }
+  
+  .marker-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+  
+  .marker-arrow {
+    border-left-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-container .my-location-btn {
+    bottom: 148px !important;
+    right: 16px !important;
+    width: 52px !important;
+    height: 52px !important;
+  }
+  
+  .map-container .leaflet-control-zoom {
+    top: 8px !important;
+    left: 8px !important;
+  }
+  
+  .map-container .leaflet-control-zoom a {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+  }
+  
+  .map-popup {
+    min-width: 160px;
+    max-width: 220px;
+  }
+  
+  .marker-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+  }
+}
+
 

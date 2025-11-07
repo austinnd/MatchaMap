@@ -423,24 +423,91 @@
 
 @media (max-width: 768px) {
   .landing-title {
-    font-size: 56px;
-    letter-spacing: 2px;
+    font-size: 48px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
   }
   
   .matcha-icon-large {
-    font-size: 100px;
+    width: 140px;
+    height: auto;
+  }
+  
+  .icon-glow {
+    width: 140px;
+    height: 140px;
   }
   
   .landing-subtitle {
-    font-size: 22px;
+    font-size: 18px;
+    margin-top: 16px;
+    padding: 0 20px;
   }
   
   .enter-button {
-    padding: 16px 48px;
-    font-size: 18px;
+    padding: 16px 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .enter-hint {
+    margin-top: 60px;
+    gap: 30px;
+  }
+  
+  .scroll-text {
+    font-size: 14px;
+  }
+  
+  .scroll-arrow {
+    font-size: 24px;
   }
   
   .orb-1, .orb-2, .orb-3 {
-    transform: scale(0.7);
+    transform: scale(0.6);
+  }
+  
+  .logo-container {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .landing-title {
+    font-size: 36px;
+    letter-spacing: 0.5px;
+  }
+  
+  .matcha-icon-large {
+    width: 120px;
+  }
+  
+  .icon-glow {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .landing-subtitle {
+    font-size: 16px;
+    padding: 0 16px;
+    line-height: 1.6;
+  }
+  
+  .enter-button {
+    padding: 14px 32px;
+    font-size: 15px;
+  }
+  
+  .enter-hint {
+    margin-top: 40px;
+    gap: 24px;
+  }
+  
+  .logo-container {
+    margin-bottom: 40px;
+  }
+  
+  .orb-1, .orb-2, .orb-3 {
+    transform: scale(0.5);
   }
 }

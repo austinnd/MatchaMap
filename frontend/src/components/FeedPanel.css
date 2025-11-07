@@ -348,4 +348,100 @@
     width: 100vw;
     right: -100vw;
   }
+  
+  .feed-panel-header {
+    padding: 20px 24px;
+  }
+  
+  .feed-panel-header h2 {
+    font-size: 22px;
+  }
+  
+  .feed-panel-header p {
+    font-size: 13px;
+  }
+  
+  .feed-close-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+  
+  .feed-panel-body {
+    padding: 16px 20px;
+    gap: 20px;
+  }
+  
+  .feed-create, .feed-list {
+    padding: 16px;
+  }
+  
+  .feed-form-group input,
+  .feed-form-group select,
+  .feed-form-group textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+    padding: 12px 14px;
+  }
+  
+  .feed-form-group textarea {
+    min-height: 100px;
+  }
+  
+  .feed-header-actions {
+    gap: 8px;
+  }
+  
+  .feed-user-info {
+    padding: 5px 10px 5px 5px;
+  }
+  
+  .feed-user-avatar {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+  
+  .feed-user-meta {
+    font-size: 11px;
+  }
+  
+  .feed-login-btn {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+  
+  .feed-item {
+    padding: 14px;
+  }
+  
+  .feed-item h4 {
+    font-size: 15px;
+  }
+  
+  .feed-item-content {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .feed-panel-header {
+    padding: 18px 20px;
+  }
+  
+  .feed-panel-header h2 {
+    font-size: 20px;
+  }
+  
+  .feed-panel-body {
+    padding: 14px 16px;
+    gap: 16px;
+  }
+  
+  .feed-create, .feed-list {
+    padding: 14px;
+  }
+  
+  .feed-create h3, .feed-list h3 {
+    font-size: 16px;
+  }
 }

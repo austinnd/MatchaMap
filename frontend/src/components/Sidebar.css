@@ -351,5 +351,67 @@
     width: 100%;
     right: -100%;
   }
+  
+  .sidebar-header {
+    padding: 20px 24px;
+  }
+  
+  .sidebar-title {
+    font-size: 20px;
+  }
+  
+  .sidebar-icon {
+    font-size: 24px;
+  }
+  
+  .close-button {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+  
+  .sidebar-search-section {
+    padding: 16px;
+  }
+  
+  .search-bar {
+    padding: 14px 16px 14px 40px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+  
+  .filter-select {
+    padding: 10px 12px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+  
+  .sidebar-results {
+    padding: 16px;
+  }
+  
+  .results-header h3 {
+    font-size: 16px;
+  }
+  
+  .spots-list {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar-header {
+    padding: 18px 20px;
+  }
+  
+  .sidebar-title {
+    font-size: 18px;
+  }
+  
+  .sidebar-search-section {
+    padding: 14px;
+  }
+  
+  .sidebar-results {
+    padding: 14px;
+  }
 }
 
