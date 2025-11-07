@@ -75,7 +75,11 @@ const LandingPage = ({ onEnter }) => {
       <div className="landing-content">
         <div className="logo-container">
           <div className="matcha-icon-wrapper">
-            <span className="matcha-icon-large">🍵</span>
+            <img
+              src="/MatchaverseLogo.png"
+              alt="Matchaverse Logo"
+              className="matcha-icon-large"
+            />
             <div className="icon-glow"></div>
           </div>
           <h1 className="landing-title">

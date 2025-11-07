@@ -162,10 +162,12 @@
 }
 
 .matcha-icon-large {
-  font-size: 140px;
+  width: 200px;
+  height: auto;
   display: block;
   position: relative;
   z-index: 2;
+
   animation: float-icon 4s ease-in-out infinite;
   filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.3));
   transition: transform 0.3s ease;
